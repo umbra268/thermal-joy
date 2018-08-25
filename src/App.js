@@ -78,36 +78,36 @@ class App extends Component {
               <h3 className="page-title">Map View</h3>
             </div>
           </div>
-          <div className="row">
-            <div className="col mb-4">
+          <div className="row justify-content-center">
+            <div className="col-xs-6 col-sm-4 col-md-3 col-lg-2 mb-4">
               <div className="stats-small stats-small--1 card card-small">
                 <div className="card-body p-0 d-flex">
                   Chart + text
                 </div>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="col-xs-6 col-sm-4 col-md-3 col-lg-2 mb-4">
               <div className="stats-small stats-small--1 card card-small">
                 <div className="card-body p-0 d-flex">
                   Chart + text
                 </div>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="col-xs-6 col-sm-4 col-md-3 col-lg-2 mb-4">
               <div className="stats-small stats-small--1 card card-small">
                 <div className="card-body p-0 d-flex">
                   Chart + text
                 </div>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="col-xs-6 col-sm-4 col-md-3 col-lg-2 mb-4">
               <div className="stats-small stats-small--1 card card-small">
                 <div className="card-body p-0 d-flex">
                   Chart + text
                 </div>
               </div>
             </div>
-            <div className="col mb-4">
+            <div className="col-xs-6 col-sm-4 col-md-3 col-lg-2 mb-4">
               <div className="stats-small stats-small--1 card card-small">
                 <div className="card-body p-0 d-flex">
                   Chart + text

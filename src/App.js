@@ -26,8 +26,6 @@ class App extends Component {
   render() {
     return (
       <div className='main-content'>
-        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <div className='main-navbar sticky-top bg-white'>
           <nav className="navbar align-items-stretch navbar-light flex-md-nowrap p-0">
             <ul className="ml-auto navbar-nav border-left flex-row ">

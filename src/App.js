@@ -54,7 +54,7 @@ class App extends Component {
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle text-nowrap px-3" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                  <FragmentFetch url="https://randomuser.me/api/">
+                  <FragmentFetch url="https://randomuser.me/api/?lego">
                     <User />
                   </FragmentFetch>
                 </a>

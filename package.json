@@ -5,11 +5,13 @@
   "dependencies": {
     "bootstrap": "^4.1.3",
     "leaflet": "^1.3.4",
+    "leaflet-draw": "^1.0.2",
     "popper.js": "^1.14.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-fetch": "^0.0.9",
-    "react-leaflet": "^2.0.1",
+    "react-leaflet": "1.8",
+    "react-leaflet-draw": "^0.18.0",
     "react-scripts": "1.1.5",
     "shards-dashboard": "https://github.com/DesignRevision/shards-dashboard.git",
     "shards-ui": "^2.0.3"

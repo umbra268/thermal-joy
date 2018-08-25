@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Fetch from 'react-fetch';
-import { Map, TileLayer } from 'react-leaflet';
+import Map from './Map';
 
 const User = props => {
   if(props.results) {
@@ -119,12 +119,7 @@ class App extends Component {
             <div className="col mb-4">
               <div className="stats-small stats-small--1 card card-small">
                 <div className="card-body p-0 d-flex">
-                <Map center={[-38.15257984677826, 176.26486301422122]} zoom={14} style={{ width: '100%', height: 600 }}>
-                  <TileLayer
-                    attribution="Map tiles by Stamen Design"
-                    url="https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.png"
-                  />
-                </Map>
+                  <Map />
                 </div>
               </div>
             </div>

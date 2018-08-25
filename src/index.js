@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/scss/bootstrap.scss';
 import 'shards-dashboard/styles/scss/shards-dashboards.scss';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet-draw/dist/leaflet.draw.css';
 import App from './App';
 import { unregister } from './registerServiceWorker';
 

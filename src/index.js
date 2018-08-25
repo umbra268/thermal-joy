@@ -9,4 +9,4 @@ import { unregister } from './registerServiceWorker';
 import 'bootstrap';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-// unregister();
+unregister();

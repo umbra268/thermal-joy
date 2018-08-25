@@ -4,9 +4,9 @@ import 'bootstrap/scss/bootstrap.scss';
 import 'shards-dashboard/styles/scss/shards-dashboards.scss';
 import 'leaflet/dist/leaflet.css';
 import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
+import { unregister } from './registerServiceWorker';
 
 import 'bootstrap';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
+// unregister();
